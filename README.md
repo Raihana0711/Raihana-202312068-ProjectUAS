@@ -182,6 +182,11 @@ nuns-dimsum/
 
 ## 📚 Dokumentasi
 
+### 🗄️ Database Structure
+
+![Database ERD](docs/erd_diagram.png)
+*Entity Relationship Diagram - Struktur database Nun's Dimsum*
+
 ### 📖 Panduan Lengkap
 
 - **[🔧 Installation Guide](docs/installation.md)** - Panduan instalasi lengkap
