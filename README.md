@@ -9,10 +9,10 @@
 
 | Data | Informasi |
 |------|----------|
-| **Nama** | Raihanna |
+| **Nama** | Raihana |
 | **NIM** | 202312068 |
 | **Email** | raihanahan5490@gmail.com |
-| **Prodi** | Teknologi Informasi |
+| **Prodi** | Teknik Informatika |
 | **Semester** | Semester 3 |
 | **Mata Kuliah** | Pemrograman Web |
 | **Tahun Akademik** | 2024/2025 |
