@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f8f9fa" stroke="#dce8c6" stroke-width="8"/>
+  <ellipse cx="200" cy="280" rx="90" ry="20" fill="none" stroke="#2e4e2d" stroke-width="3"/>
+  <path d="M 140 200 Q 200 260 260 200" fill="none" stroke="#2e4e2d" stroke-width="3"/>
+  <path d="M 145 205 Q 200 255 255 205" fill="none" stroke="#2e4e2d" stroke-width="2"/>
+  <path d="M 170 140 Q 175 120 170 100" fill="none" stroke="#666" stroke-width="2"/>
+  <path d="M 200 140 Q 205 120 200 100" fill="none" stroke="#666" stroke-width="2"/>
+  <path d="M 230 140 Q 235 120 230 100" fill="none" stroke="#666" stroke-width="2"/>
+  <text x="200" y="330" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2e4e2d" text-anchor="middle">MENU DIMSUM</text>
+  <text x="200" y="355" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Gambar Placeholder</text>
+</svg>

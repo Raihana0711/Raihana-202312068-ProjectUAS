@@ -1,0 +1,81 @@
+RewriteEngine On
+
+# Custom error pages
+ErrorDocument 404 /backup.raihanna/index.php?page=404
+
+# Security - Hide sensitive files and directories
+<Files ~ "(\.sql|\.log|\.env|config\.php|koneksi\.php)$">
+    Order deny,allow
+    Deny from all
+</Files>
+
+# Hide src directory from direct access
+RedirectMatch 404 ^/src/
+
+# Hide includes directory from direct access  
+RedirectMatch 404 ^/includes/
+
+# Hide database directory from direct access
+RedirectMatch 404 ^/database/
+
+# Hide logs directory from direct access
+RedirectMatch 404 ^/logs/
+
+# Prevent access to PHP files in views directory
+<FilesMatch "^((?!index\.php).)*\.php$">
+    <IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteCond %{REQUEST_URI} ^/src/views/
+        RewriteRule .* - [F,L]
+    </IfModule>
+</FilesMatch>
+
+# Clean URLs - redirect old direct file access to new routing
+RewriteRule ^admin/?$ index.php?page=admin [L,QSA]
+RewriteRule ^user/?$ index.php?page=user [L,QSA]
+RewriteRule ^login/?$ index.php?page=login [L,QSA]
+RewriteRule ^register/?$ index.php?page=register [L,QSA]
+RewriteRule ^logout/?$ index.php?page=logout [L,QSA]
+
+# General clean URL routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z]+)/?$ index.php?page=$1 [L,QSA]
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Security headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Enable GZIP compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# Cache static files
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+</IfModule>
+
+# Prevent directory browsing
+Options -Indexes

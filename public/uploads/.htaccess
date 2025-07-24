@@ -1,0 +1,8 @@
+# Protect uploads directory
+Options -Indexes
+
+# Allow image files
+<Files ~ "\.(jpg|jpeg|png|gif|svg)$">
+    Order allow,deny
+    Allow from all
+</Files>

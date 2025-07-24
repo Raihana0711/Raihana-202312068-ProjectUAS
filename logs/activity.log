@@ -1,0 +1,33 @@
+# Nun's Dimsum Activity Log
+# Format: [TIMESTAMP] MESSAGE
+[2025-07-20 09:38:08] Successful login: admin from IP: ::1
+[2025-07-20 09:38:19] Successful login: admin from IP: ::1
+[2025-07-20 09:38:39] Successful login: user from IP: ::1
+[2025-07-20 09:38:50] Failed login attempt: user from IP: ::1
+[2025-07-20 09:39:05] Successful login: user from IP: ::1
+[2025-07-20 09:39:22] Failed login attempt: user from IP: ::1
+[2025-07-20 09:39:28] Failed login attempt: user from IP: ::1
+[2025-07-20 09:39:33] Failed login attempt: user from IP: ::1
+[2025-07-20 10:14:41] Successful login: admin from IP: ::1
+[2025-07-20 13:46:11] Successful login: admin from IP: ::1
+[2025-07-20 13:46:59] Successful login: user from IP: ::1
+[2025-07-20 13:48:11] Failed login attempt: h from IP: ::1
+[2025-07-21 03:35:09] Successful login: admin from IP: ::1
+[2025-07-21 03:37:38] Successful login: pesal from IP: ::1
+[2025-07-21 04:01:24] Successful login: admin from IP: ::1
+[2025-07-21 04:02:20] Failed login attempt: user123 from IP: ::1
+[2025-07-21 04:02:28] Failed login attempt: wfsfwe from IP: ::1
+[2025-07-21 04:02:36] Successful login: admin from IP: ::1
+[2025-07-22 03:55:30] Failed login attempt: admin from IP: ::1
+[2025-07-22 03:55:41] Successful login: admin from IP: ::1
+[2025-07-22 03:58:08] Successful login: user from IP: ::1
+[2025-07-22 04:03:18] Successful login: admin from IP: ::1
+[2025-07-22 10:59:48] Successful login: admin from IP: ::1
+[2025-07-22 12:21:48] Successful login: admin from IP: ::1
+[2025-07-24 07:09:10] Successful login: admin from IP: ::1
+[2025-07-24 07:10:16] Successful login: user from IP: ::1
+[2025-07-24 07:11:48] Successful login: admin from IP: ::1
+[2025-07-24 07:16:04] Successful login: user from IP: ::1
+[2025-07-24 07:20:42] Successful login: admin from IP: ::1
+[2025-07-24 07:27:01] Successful login: admin from IP: ::1
+[2025-07-24 08:40:06] Successful login: admin from IP: ::1
