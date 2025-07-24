@@ -13,7 +13,7 @@
 | **NIM** | 202312068 |
 | **Email** | raihanahan5490@gmail.com |
 | **Prodi** | Teknik Informatika |
-| **Semester** | Semester 3 |
+| **Semester** | Semester 4 |
 | **Mata Kuliah** | Pemrograman Web |
 | **Tahun Akademik** | 2024/2025 |
 
