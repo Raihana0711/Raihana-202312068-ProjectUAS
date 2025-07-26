@@ -28,6 +28,7 @@
 | **💭 Moto Kehidupan** | "Jalanin aja" |
 
 -Link Hosting : https://raihana.mangaverse.my.id
+
 -Link Youtube : https://youtu.be/OSys4FVk9R4?si=celmsK8CKz9fb5VC
 ---
 
