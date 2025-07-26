@@ -27,8 +27,8 @@
 | **🥤 Minuman Favorit** | Milo Ice |
 | **💭 Moto Kehidupan** | "Jalanin aja" |
 
-Link Hosting : https://raihana.mangaverse.my.id
-Link Youtube : https://youtu.be/OSys4FVk9R4?si=celmsK8CKz9fb5VC
+-Link Hosting : https://raihana.mangaverse.my.id
+-Link Youtube : https://youtu.be/OSys4FVk9R4?si=celmsK8CKz9fb5VC
 ---
 
 > Sistem manajemen restoran berbasis web dengan fitur lengkap untuk mengelola menu, pesanan, dan transaksi dengan desain modern dan user experience yang optimal.
