@@ -87,20 +87,7 @@ Nun's Dimsum adalah sistem manajemen restoran modern yang dibangun khusus untuk 
 - **🔄 Real-time Updates** - Status pesanan yang update secara real-time
 - **📱 Progressive Web App** - Pengalaman seperti aplikasi native
 - **🔍 Advanced Search** - Pencarian menu dengan filter kategori dan harga
-
-## 📱 Screenshots
-
-### Admin Dashboard
-
-![Admin Dashboard](docs/screenshots/admin-dashboard.png)
-
-### User Interface
-
-![User Interface](docs/screenshots/user-interface.png)
-
-### Mobile Responsive
-
-![Mobile View](docs/screenshots/mobile-view.png)
+- 
 
 ## 🛠️ Teknologi
 
@@ -317,14 +304,6 @@ MIT License - Copyright (c) 2025 Nun's Dimsum Project
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
 ```
-
-## 👨‍💻 Authors & Contributors
-
-**Raihanna Development Team**
-
-- 👤 **Lead Developer**: [Your Name](https://github.com/yourusername)
-- 🎨 **UI/UX Designer**: [Designer Name](https://github.com/designer)
-- 🗄️ **Database Architect**: [DB Expert Name](https://github.com/dbexpert)
 
 ### 🙏 Special Thanks
 
